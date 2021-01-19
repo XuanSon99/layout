@@ -1,0 +1,50 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: #333;
+}
+.slide{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: #444;
+    margin-top: 60px;
+}
+.banner{
+    margin-top: 25px;
+}
+.banner div div{
+    height: 250px;
+    background: #444;
+    border-radius: 10px;
+}
+.content{
+    margin-top: 25px;
+}
+.left-content div{
+    background: #444;
+    height: 500px;
+    border-radius: 10px;
+}
+.right-content div div div{
+    background: #444;
+    height: 238px;
+    border-radius: 10px;
+}
+.right-content .row:first-child{
+    margin-bottom: 24px;
+}
+.about{
+    margin: 25px 0;
+}
+.about div{
+    background: #444;
+    height: 250px;
+    border-radius: 10px;
+}
+footer{
+    height: 250px;
+    background: #444;
+}
